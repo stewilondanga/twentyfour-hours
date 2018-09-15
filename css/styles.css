@@ -181,11 +181,12 @@ body {
   animation: loopInMoon 0.6s both ease-out;
 }
 
-/*.icon:hover .m1 {
+.icon:hover .m1 {
   -webkit-transform: translateX(3%) translateZ(0);
-          transform: translateX(3%) translateZ(0);
+  transform: translateX(3%) translateZ(0);
 }
-.icon:hover .m2 {
+
+/*.icon:hover .m2 {
   -webkit-transform: scale(1.4) translateX(2%) translateZ(0);
           transform: scale(1.4) translateX(2%) translateZ(0);
 }
