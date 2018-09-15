@@ -97,7 +97,7 @@ body {
   animation: loopOut 0.65s both linear;
 }
 
-/*.moon:after {
+.moon:after {
   content: "";
   width: 100%;
   height: 100%;
@@ -107,10 +107,10 @@ body {
   border-radius: 100%;
   box-shadow: var(--moonOffsetX) var(--moonOffsetY) 0 0 #fff;
   -webkit-animation: loopOutMoon 0.65s both linear;
-          animation: loopOutMoon 0.65s both linear;
+  animation: loopOutMoon 0.65s both linear;
 }
 
-.mountain {
+/*.mountain {
   position: absolute;
   width: 100%;
   height: 100%;
