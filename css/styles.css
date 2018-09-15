@@ -68,7 +68,7 @@ body {
   background-position: top left;
 }
 
-/*.sun {
+.sun {
   position: absolute;
   left: 66%;
   top: 25%;
@@ -77,12 +77,12 @@ body {
   border-radius: 100%;
   background-color: var(--elem);
   -webkit-transform-origin: var(--transformOrigin);
-          transform-origin: var(--transformOrigin);
+  transform-origin: var(--transformOrigin);
   -webkit-animation: loopIn 0.6s both ease-out;
-          animation: loopIn 0.6s both ease-out;
+  animation: loopIn 0.6s both ease-out;
 }
 
-.moon {
+/*.moon {
   position: absolute;
   left: 66%;
   top: 25%;
