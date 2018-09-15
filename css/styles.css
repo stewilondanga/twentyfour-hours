@@ -191,18 +191,18 @@ body {
   transform: scale(1.4) translateX(2%) translateZ(0);
 }
 
-/*@-webkit-keyframes loopIn {
+@-webkit-keyframes loopIn {
   0% {
     -webkit-transform: rotate(50deg) translateZ(0);
-            transform: rotate(50deg) translateZ(0);
+    transform: rotate(50deg) translateZ(0);
   }
   100% {
     -webkit-transform: rotate(0) translateZ(0);
-            transform: rotate(0) translateZ(0);
+    transform: rotate(0) translateZ(0);
   }
 }
 
-@keyframes loopIn {
+/*@keyframes loopIn {
   0% {
     -webkit-transform: rotate(50deg) translateZ(0);
             transform: rotate(50deg) translateZ(0);
