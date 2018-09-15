@@ -186,12 +186,12 @@ body {
   transform: translateX(3%) translateZ(0);
 }
 
-/*.icon:hover .m2 {
+.icon:hover .m2 {
   -webkit-transform: scale(1.4) translateX(2%) translateZ(0);
-          transform: scale(1.4) translateX(2%) translateZ(0);
+  transform: scale(1.4) translateX(2%) translateZ(0);
 }
 
-@-webkit-keyframes loopIn {
+/*@-webkit-keyframes loopIn {
   0% {
     -webkit-transform: rotate(50deg) translateZ(0);
             transform: rotate(50deg) translateZ(0);
