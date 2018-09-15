@@ -162,11 +162,12 @@ body {
 
 /* Night will be hover */
 
-/*.icon:hover .sun {
+.icon:hover .sun {
   -webkit-animation: loopOut 0.65s both linear;
-          animation: loopOut 0.65s both linear;
+  animation: loopOut 0.65s both linear;
 }
-.icon:hover .sky {
+
+/*.icon:hover .sky {
   background-position: left 85%;
 }
 .icon:hover .moon {
