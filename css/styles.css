@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,260 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+/* Icon design greatly inspired by an svg created by Garrett Knoll: https://thenounproject.com/g_a.k_/uploads/?i=218424 */
+/*:root {
+  --light: #ccc;
+  --accent: purple;
+  --dark: #444;
+  --elem: #fff;
+  --transformOrigin: -200% 421%;
+  --moonOffsetX: 20px;
+  --moonOffsetY: 6px;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.icon {
+  border: none;
+  position: relative;
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 0;
+  background-clip: padding-box;
+}
+
+.sky {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 100%;
+  -webkit-transform: translateY(0%) translateZ(0);
+          transform: translateY(0%) translateZ(0);
+  transition: 1s;
+  background: linear-gradient(var(--light), var(--accent), var(--dark));
+  background-size: 100% 500%;
+  background-position: top left;
+}
+
+.sun {
+  position: absolute;
+  left: 66%;
+  top: 25%;
+  width: 13.5%;
+  height: 13.5%;
+  border-radius: 100%;
+  background-color: var(--elem);
+  -webkit-transform-origin: var(--transformOrigin);
+          transform-origin: var(--transformOrigin);
+  -webkit-animation: loopIn 0.6s both ease-out;
+          animation: loopIn 0.6s both ease-out;
+}
+
+.moon {
+  position: absolute;
+  left: 66%;
+  top: 25%;
+  width: 13.5%;
+  height: 13.5%;
+  border-radius: 100%;
+  margin-left: calc(var(--moonOffsetX) * -1);
+  margin-top: calc(var(--moonOffsetY) * -1);
+  -webkit-transform-origin: var(--transformOrigin);
+          transform-origin: var(--transformOrigin);
+  -webkit-animation: loopOut 0.65s both linear;
+          animation: loopOut 0.65s both linear;
+}
+
+.moon:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 100%;
+  box-shadow: var(--moonOffsetX) var(--moonOffsetY) 0 0 #fff;
+  -webkit-animation: loopOutMoon 0.65s both linear;
+          animation: loopOutMoon 0.65s both linear;
+}
+
+.mountain {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  transition: 0.4s;
+}
+
+.mountain div {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  background-color: var(--elem);
+  border-radius: 10%;
+}
+
+.m2 div:nth-of-type(1) {
+  bottom: -12%;
+  left: 10%;
+  -webkit-transform: scaleX(0.85) rotate(45deg) translateZ(0);
+          transform: scaleX(0.85) rotate(45deg) translateZ(0);
+}
+
+.m2 div:nth-of-type(2) {
+  bottom: -30%;
+  left: 25.5%;
+  -webkit-transform: scaleX(0.85) rotate(45deg) translateZ(0);
+          transform: scaleX(0.85) rotate(45deg) translateZ(0);
+}
+
+.m1 div {
+  opacity: 0.8;
+  bottom: -21%;
+  right: 5%;
+  -webkit-transform: scaleX(0.95) rotate(45deg) translateZ(0);
+          transform: scaleX(0.95) rotate(45deg) translateZ(0);
+}
+
+.border {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: 10px solid var(--light);
+  transition: 1s;
+  border-radius: 100%;
+}
+
+/* Night will be hover */
+/*.icon:hover .sun {
+  -webkit-animation: loopOut 0.65s both linear;
+          animation: loopOut 0.65s both linear;
+}
+.icon:hover .sky {
+  background-position: left 85%;
+}
+.icon:hover .moon {
+  -webkit-animation: loopIn 0.6s both ease-out;
+          animation: loopIn 0.6s both ease-out;
+}
+.icon:hover .moon:after {
+  -webkit-animation: loopInMoon 0.6s both ease-out;
+          animation: loopInMoon 0.6s both ease-out;
+}
+.icon:hover .m1 {
+  -webkit-transform: translateX(3%) translateZ(0);
+          transform: translateX(3%) translateZ(0);
+}
+.icon:hover .m2 {
+  -webkit-transform: scale(1.4) translateX(2%) translateZ(0);
+          transform: scale(1.4) translateX(2%) translateZ(0);
+}
+
+@-webkit-keyframes loopIn {
+  0% {
+    -webkit-transform: rotate(50deg) translateZ(0);
+            transform: rotate(50deg) translateZ(0);
+  }
+  100% {
+    -webkit-transform: rotate(0) translateZ(0);
+            transform: rotate(0) translateZ(0);
+  }
+}
+
+@keyframes loopIn {
+  0% {
+    -webkit-transform: rotate(50deg) translateZ(0);
+            transform: rotate(50deg) translateZ(0);
+  }
+  100% {
+    -webkit-transform: rotate(0) translateZ(0);
+            transform: rotate(0) translateZ(0);
+  }
+}
+@-webkit-keyframes loopOut {
+  0% {
+    -webkit-transform: rotate(0deg) translateZ(0);
+            transform: rotate(0deg) translateZ(0);
+  }
+  100% {
+    -webkit-transform: rotate(-80deg) translateZ(0);
+            transform: rotate(-80deg) translateZ(0);
+  }
+}
+@keyframes loopOut {
+  0% {
+    -webkit-transform: rotate(0deg) translateZ(0);
+            transform: rotate(0deg) translateZ(0);
+  }
+  100% {
+    -webkit-transform: rotate(-80deg) translateZ(0);
+            transform: rotate(-80deg) translateZ(0);
+  }
+}
+@-webkit-keyframes loopOutMoon {
+  0% {
+    -webkit-transform: rotate(0deg) translateZ(0);
+            transform: rotate(0deg) translateZ(0);
+  }
+  100% {
+    -webkit-transform: rotate(80deg) translateZ(0);
+            transform: rotate(80deg) translateZ(0);
+  }
+}
+@keyframes loopOutMoon {
+  0% {
+    -webkit-transform: rotate(0deg) translateZ(0);
+            transform: rotate(0deg) translateZ(0);
+  }
+  100% {
+    -webkit-transform: rotate(80deg) translateZ(0);
+            transform: rotate(80deg) translateZ(0);
+  }
+}
+@-webkit-keyframes loopInMoon {
+  0% {
+    -webkit-transform: rotate(0deg) translateZ(0);
+            transform: rotate(0deg) translateZ(0);
+  }
+  100% {
+    -webkit-transform: rotate(0deg) translateZ(0);
+            transform: rotate(0deg) translateZ(0);
+  }
+}
+@keyframes loopInMoon {
+  0% {
+    -webkit-transform: rotate(0deg) translateZ(0);
+            transform: rotate(0deg) translateZ(0);
+  }
+  100% {
+    -webkit-transform: rotate(0deg) translateZ(0);
+            transform: rotate(0deg) translateZ(0);
+  }
 }
 
 .containers {
