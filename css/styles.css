@@ -1,3 +1,5 @@
+/* Icon design greatly inspired by an svg created by Garrett Knoll: https://thenounproject.com/g_a.k_/uploads/?i=218424 */
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -21,7 +23,6 @@
   height: 1.5em;
 }
 
-/* Icon design greatly inspired by an svg created by Garrett Knoll: https://thenounproject.com/g_a.k_/uploads/?i=218424 */
 /*:root {
   --light: #ccc;
   --accent: purple;
@@ -169,6 +170,7 @@ body {
 }
 
 /* Night will be hover */
+
 /*.icon:hover .sun {
   -webkit-animation: loopOut 0.65s both linear;
           animation: loopOut 0.65s both linear;
