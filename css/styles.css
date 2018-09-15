@@ -224,17 +224,18 @@ body {
   }
 }
 
-/*@keyframes loopOut {
+@keyframes loopOut {
   0% {
     -webkit-transform: rotate(0deg) translateZ(0);
-            transform: rotate(0deg) translateZ(0);
+    transform: rotate(0deg) translateZ(0);
   }
   100% {
     -webkit-transform: rotate(-80deg) translateZ(0);
-            transform: rotate(-80deg) translateZ(0);
+    transform: rotate(-80deg) translateZ(0);
   }
 }
-@-webkit-keyframes loopOutMoon {
+
+/*@-webkit-keyframes loopOutMoon {
   0% {
     -webkit-transform: rotate(0deg) translateZ(0);
             transform: rotate(0deg) translateZ(0);
