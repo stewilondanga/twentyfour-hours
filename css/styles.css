@@ -268,18 +268,18 @@ body {
   }
 }
 
-/*@keyframes loopInMoon {
+@keyframes loopInMoon {
   0% {
     -webkit-transform: rotate(0deg) translateZ(0);
-            transform: rotate(0deg) translateZ(0);
+    transform: rotate(0deg) translateZ(0);
   }
   100% {
     -webkit-transform: rotate(0deg) translateZ(0);
-            transform: rotate(0deg) translateZ(0);
+    transform: rotate(0deg) translateZ(0);
   }
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
