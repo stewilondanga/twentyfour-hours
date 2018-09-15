@@ -149,7 +149,7 @@ body {
   transform: scaleX(0.95) rotate(45deg) translateZ(0);
 }
 
-/*.border {
+.border {
   position: absolute;
   left: 0;
   top: 0;
