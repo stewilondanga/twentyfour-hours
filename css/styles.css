@@ -202,17 +202,18 @@ body {
   }
 }
 
-/*@keyframes loopIn {
+@keyframes loopIn {
   0% {
     -webkit-transform: rotate(50deg) translateZ(0);
-            transform: rotate(50deg) translateZ(0);
+    transform: rotate(50deg) translateZ(0);
   }
   100% {
     -webkit-transform: rotate(0) translateZ(0);
-            transform: rotate(0) translateZ(0);
+    transform: rotate(0) translateZ(0);
   }
 }
-@-webkit-keyframes loopOut {
+
+/*@-webkit-keyframes loopOut {
   0% {
     -webkit-transform: rotate(0deg) translateZ(0);
             transform: rotate(0deg) translateZ(0);
