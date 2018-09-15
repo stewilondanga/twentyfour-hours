@@ -134,14 +134,14 @@ body {
   transform: scaleX(0.85) rotate(45deg) translateZ(0);
 }
 
-/*.m2 div:nth-of-type(2) {
+.m2 div:nth-of-type(2) {
   bottom: -30%;
   left: 25.5%;
   -webkit-transform: scaleX(0.85) rotate(45deg) translateZ(0);
-          transform: scaleX(0.85) rotate(45deg) translateZ(0);
+  transform: scaleX(0.85) rotate(45deg) translateZ(0);
 }
 
-.m1 div {
+/*.m1 div {
   opacity: 0.8;
   bottom: -21%;
   right: 5%;
