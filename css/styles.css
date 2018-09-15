@@ -171,11 +171,12 @@ body {
   background-position: left 85%;
 }
 
-/*.icon:hover .moon {
+.icon:hover .moon {
   -webkit-animation: loopIn 0.6s both ease-out;
-          animation: loopIn 0.6s both ease-out;
+  animation: loopIn 0.6s both ease-out;
 }
-.icon:hover .moon:after {
+
+/*.icon:hover .moon:after {
   -webkit-animation: loopInMoon 0.6s both ease-out;
           animation: loopInMoon 0.6s both ease-out;
 }
