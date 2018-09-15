@@ -127,14 +127,14 @@ body {
   border-radius: 10%;
 }
 
-/*.m2 div:nth-of-type(1) {
+.m2 div:nth-of-type(1) {
   bottom: -12%;
   left: 10%;
   -webkit-transform: scaleX(0.85) rotate(45deg) translateZ(0);
-          transform: scaleX(0.85) rotate(45deg) translateZ(0);
+  transform: scaleX(0.85) rotate(45deg) translateZ(0);
 }
 
-.m2 div:nth-of-type(2) {
+/*.m2 div:nth-of-type(2) {
   bottom: -30%;
   left: 25.5%;
   -webkit-transform: scaleX(0.85) rotate(45deg) translateZ(0);
