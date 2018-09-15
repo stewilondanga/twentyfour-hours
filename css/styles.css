@@ -1,5 +1,15 @@
 /* Icon design greatly inspired by an svg created by Garrett Knoll: https://thenounproject.com/g_a.k_/uploads/?i=218424 */
 
+:root {
+  --light: #ccc;
+  --accent: purple;
+  --dark: #444;
+  --elem: #fff;
+  --transformOrigin: -200% 421%;
+  --moonOffsetX: 20px;
+  --moonOffsetY: 6px;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -21,16 +31,6 @@
 
 .my_social a img {
   height: 1.5em;
-}
-
-/*:root {
-  --light: #ccc;
-  --accent: purple;
-  --dark: #444;
-  --elem: #fff;
-  --transformOrigin: -200% 421%;
-  --moonOffsetX: 20px;
-  --moonOffsetY: 6px;
 }
 
 *,
