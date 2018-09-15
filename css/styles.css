@@ -110,7 +110,7 @@ body {
   animation: loopOutMoon 0.65s both linear;
 }
 
-/*.mountain {
+.mountain {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -119,7 +119,7 @@ body {
   transition: 0.4s;
 }
 
-.mountain div {
+/*.mountain div {
   position: absolute;
   width: 60%;
   height: 60%;
