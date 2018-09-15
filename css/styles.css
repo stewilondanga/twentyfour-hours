@@ -53,7 +53,7 @@ body {
   background-clip: padding-box;
 }
 
-/*.sky {
+.sky {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -61,14 +61,14 @@ body {
   top: 0;
   border-radius: 100%;
   -webkit-transform: translateY(0%) translateZ(0);
-          transform: translateY(0%) translateZ(0);
+  transform: translateY(0%) translateZ(0);
   transition: 1s;
   background: linear-gradient(var(--light), var(--accent), var(--dark));
   background-size: 100% 500%;
   background-position: top left;
 }
 
-.sun {
+/*.sun {
   position: absolute;
   left: 66%;
   top: 25%;
